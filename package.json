@@ -1,0 +1,18 @@
+{
+  "name": "ree-balance-monitor",
+  "version": "1.0.0",
+  "description": "Fullstack system for monitoring Spain's electrical balance data",
+  "private": true,
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "start": "docker-compose up",
+    "dev": "docker-compose up -d",
+    "test": "npm run test --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "author": "",
+  "license": "ISC"
+}
